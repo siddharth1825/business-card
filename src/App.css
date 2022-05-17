@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+body{
+  background-color: #000d1a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image{
+  height: 20rem;
+  width: 100%;
+  background-color: #000d1a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.top{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  
+}
+
+.top > h1{
+  color: white;
+
+}
+
+.top > h3{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.top > p{
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content > h2{
+  color: white;
+}
+
+.content > p{
+  color: white;
+}
+
+.Logos{
+  background-color: rgb(78, 0, 202);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.insta {
+  height: 50px;
+}
+
+.fb{
+  height: 50px;
+}
+
+.github {
+  height: 50px;
+}
+
+.twitter{
+  height: 50px;
+}
+
+.linkedin{
+  background-color: white;
+  padding: 10px;
+}
+
+input.button-add {
+  background-image: url(https://180dc.org/wp-content/uploads/2020/01/Linkedin-logo-1-550x550-300x300.png); /* 16px x 16px */
+  background-color: white; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 0px 0px;  /* equivalent to 'top left' */
+  border: none;           /* assuming we don't want any borders */
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  height: 30px;           /* make this the size of your image */
+  padding-left: 16px;     /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
 }
